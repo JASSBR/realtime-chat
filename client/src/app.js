@@ -296,7 +296,8 @@ function appendMessage(msg) {
   const msgDate = formatDate(msg.timestamp);
 
   // Check if we need a date separator
-  const lastDateEl = messagesEl.querySelector('.msg-system:last-of-type .msg-system-text');
+  const allDateSeps = messagesEl.querySelectorAll('.msg-system .msg-system-text');
+  const lastDateEl = allDateSeps.length > 0 ? allDateSeps[allDateSeps.length - 1] : null;
   if (!lastDateEl || lastDateEl.textContent !== msgDate) {
     const dateSep = document.createElement('div');
     dateSep.className = 'msg-system';
