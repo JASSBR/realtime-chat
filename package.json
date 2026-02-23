@@ -8,5 +8,8 @@
     "dev": "node --watch server/index.js"
   },
   "keywords": [],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
 }
