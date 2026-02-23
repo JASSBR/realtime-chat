@@ -1,0 +1,12 @@
+{
+  "name": "realtime-chat",
+  "version": "1.0.0",
+  "description": "WebSocket chat app with rooms, typing indicators, online users, and message history.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "keywords": [],
+  "license": "MIT"
+}

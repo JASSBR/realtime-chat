@@ -1,0 +1,34 @@
+You are building a FULLSTACK project. Implement BOTH client and server completely:
+
+**SERVER** (server/):
+1. RESTful API with all CRUD endpoints
+2. JSON file-based persistence (data/store.json)
+3. Input validation and error handling
+4. Proper HTTP status codes
+
+**CLIENT** (client/):
+1. Complete UI with all interactive elements
+2. Modern dark-theme CSS with animations
+3. Full API integration — all features connected to backend
+4. Optimistic updates and loading states
+5. Error handling with user-friendly messages
+
+**INTEGRATION:**
+- Server serves client files AND API from same port
+- All client actions trigger real API calls
+- Data persists between page reloads
+
+Use ONLY native Node.js modules on server. No npm dependencies. Update README.md with full documentation.
+
+---
+PROJECT DETAILS:
+- Name: realtime-chat
+- Title: Real-time Chat Application
+- Description: WebSocket chat app with rooms, typing indicators, online users, and message history.
+- Category: fullstack
+- Difficulty: intermediate
+- Tags: websocket, chat, real-time
+
+Implement EVERYTHING now. The project must be complete and fully functional when you're done.
+After implementation, commit all changes with message: "Implement complete Real-time Chat Application"
+Then push to origin main.

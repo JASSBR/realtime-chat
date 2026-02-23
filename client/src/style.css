@@ -1,0 +1,13 @@
+:root {
+  --primary: #6366f1;
+  --bg: #0f172a;
+  --surface: #1e293b;
+  --text: #e2e8f0;
+  --border: #334155;
+}
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; display: flex; justify-content: center; padding: 2rem; }
+#app { width: 100%; max-width: 800px; }
+header { text-align: center; margin-bottom: 2rem; }
+header h1 { background: linear-gradient(135deg, var(--primary), #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+main { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; }
