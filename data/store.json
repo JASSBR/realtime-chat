@@ -1,1 +1,23 @@
-{ "items": [] }
+{
+  "rooms": [
+    {
+      "id": "mmah3w2zjnyqo7",
+      "name": "General",
+      "description": "General discussion for everyone",
+      "createdAt": "2026-03-03T10:36:58.283Z"
+    },
+    {
+      "id": "mmah3w35yigbnr",
+      "name": "Random",
+      "description": "Off-topic conversations and fun",
+      "createdAt": "2026-03-03T10:36:58.289Z"
+    },
+    {
+      "id": "mmah3w35reysmg",
+      "name": "Tech Talk",
+      "description": "Programming, tech news, and development",
+      "createdAt": "2026-03-03T10:36:58.289Z"
+    }
+  ],
+  "messages": []
+}
